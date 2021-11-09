@@ -7,6 +7,10 @@ import random
 def binary_search(array, target):
     '''
     Binary search algorithm
+
+    input : list, target
+
+    output : index of target
     '''
     start = 0
     end = len(array) - 1
